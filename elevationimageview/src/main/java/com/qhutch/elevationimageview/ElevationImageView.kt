@@ -79,6 +79,10 @@ open class ElevationImageView : AppCompatImageView {
         invalidate()
     }
 
+    override fun getElevation(): Float {
+        return customElevation
+    }
+
     fun setElevationDp(elevation: Float) {
         customElevation = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, elevation, resources.displayMetrics)
         invalidate()
