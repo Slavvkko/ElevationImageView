@@ -35,8 +35,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        renderscriptTargetApi 18
-        renderscriptSupportModeEnabled true
+//        renderscriptTargetApi 18
+//        renderscriptSupportModeEnabled true
     }
 
     buildTypes {
